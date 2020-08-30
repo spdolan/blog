@@ -12,6 +12,12 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $github_token
-  local_dir: out/.nojekyll
+  local_dir: out
   on:
     branch: trunk
+notifications:
+  email:
+    recipients:
+      - $my_email
+    on_success: change
+    on_failure: always
