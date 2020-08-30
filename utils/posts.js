@@ -24,7 +24,6 @@ function getFormattedDate(date) {
 
 export function getSortedPosts() {
   const postFolders = getPostsFolders();
-
   const posts = postFolders
     .map(({ filename, directory }) => {
       // Get raw content from file
@@ -60,12 +59,11 @@ export function getSortedPosts() {
 export function getPostsSlugs() {
   const postFolders = getPostsFolders();
 
-  const paths = postFolders.map(({ filename }) => ({
+  const paths = postFolders.map(({ directory }) => ({
     params: {
-      slug: filename.replace(".md", ""),
+      slug: directory,
     },
   }));
-
   return paths;
 }
 
