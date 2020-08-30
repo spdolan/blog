@@ -1,0 +1,44 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "A blog website to get some thoughts out.",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "lazysizes": "^5.2.2",
+    "lqip-loader": "^2.2.0",
+    "next": "9.5.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-markdown": "^4.3.1",
+    "react-syntax-highlighter": "^13.0.0",
+    "typeface-merriweather": "^0.0.72",
+    "typeface-open-sans": "^0.0.75"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "gray-matter": "^4.0.2",
+    "tailwindcss": "^1.5.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spdolan/blog.git"
+  },
+  "homepage": "",
+  "keywords": [
+    "next.js",
+    "blog",
+    "template"
+  ]
+}
