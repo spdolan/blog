@@ -1,13 +1,18 @@
 ---
 title: "Small JS Patterns: Config Object"
 date: 2020-08-16T11:00:00.000Z
+modified: 2020-09-05T11:00:00.000Z
 description: "First in JS Patterns Series, fun use of spread operator."
 tags: [js]
 ---
 
 Sharing here a quick JS pattern that I enjoy using when dealing with when representing some sort of configuration with an object.
 
-##### TLDR: when using objects, and assigning key-value pairs, placing array brackets - \[ \] – around a variable will evaluate that variable's value instead of using the variable name.
+### TLDR
+
+When using objects, and assigning key-value pairs, placing array brackets - \[ \] – around a variable will evaluate that variable's value instead of using the variable name.
+
+## Using Configuration Objects
 
 This pattern is vanilla JS, so let's open up our dev tools within your favorite browser. Create an object that represents potential filters on a movie/tv show selection site:
 
