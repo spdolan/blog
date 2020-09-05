@@ -37,6 +37,7 @@ export function getSortedPosts() {
       const frontmatter = {
         ...data,
         date: getFormattedDate(data.date),
+        modified: getFormattedDate(data.modified),
       };
 
       // Remove .md file extension from post name
